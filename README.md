@@ -40,7 +40,7 @@ Also save the resultant "Count Mask" image file with the name "Count_Mask_229461
 
 Q4) How many particles were detected?  
 A4) Put your answer here.  
-ANSWER: 2391 particles
+ANSWER: 2391 particles (This value is after using the Watershed package to split touching nuclei. I used this value in the Python notebook for the next question. If I did not use Watershed, then it counted 1417 particles.)
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
